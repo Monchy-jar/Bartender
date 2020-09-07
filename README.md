@@ -1,5 +1,5 @@
 # What's Bartender?
-Bartender is an utility mod (hack client) for Minecraft 1.12.2. It is designed for [8b8t.xyz](https://www.8b8t.xyz/) anarchy server. Keep in mind that some of Bartender's features may not work on servers other than 8b8t, as they rely on 8b8t's server environment. Future releases will be designed to adapt into any changes 8b's environment may come across.
+Bartender is an utility mod for Minecraft 1.12.2. It is designed for [8b8t.xyz](https://www.8b8t.xyz/) anarchy server. Keep in mind that some of Bartender's features may not work on servers other than 8b8t, as they rely on 8b8t's server environment. Future releases will be designed to adapt into any changes 8b's environment may come across.
 
 Some of Bartender's features need hacks from other clients in order to work properly. See the list here. You can use any hack client alongside Bartender, but only Impact and Kami BLUE are tested to be compatible by the Bartender creator DrunkShulker.
 
