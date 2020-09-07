@@ -1,0 +1,1463 @@
+{
+	"click_gui": [
+		{
+			"name": "gui",
+			"desc": [
+				"BARTENDER GUI PREFERENCES"
+			],
+			"x": 0,
+			"y": 0,
+			"expanded": false,
+			"contents": [
+				{
+					"title": "tot count",
+					"type": "text",
+					"value": 1,
+					"values": [
+						"off",
+						"on"
+					],
+					"desc": [
+						"DISPLAY TOTEM COUNT NEXT TO THE OFFHAND GUI"
+					]
+				},
+				{
+					"title": "numbers",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"off",
+						"on"
+					],
+					"desc": [
+						"DISPLAY ACCURATE HP AND FOOD LEVELS"
+					]
+				},
+				{
+					"title": "target list",
+					"type": "text",
+					"value": 1,
+					"values": [
+						"off",
+						"on"
+					],
+					"desc": [
+						"SHOW LIST OF POTENTIAL TARGETS",
+						"THIS CAN BE USED TO COMMAND YOUR BODYGUARDS"
+					]
+				},
+				{
+					"title": "AP overlay",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"hidden",
+						"visible"
+					],
+					"desc": [
+						"HIDE VANILLA ARMOR OVERLAY"
+					]
+				},
+				{
+					"title": "HP overlay",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"hidden",
+						"visible"
+					],
+					"desc": [
+						"HIDE VANILLA HEALTH OVERLAY WHEN FULL HEALTH"
+					]
+				},
+				{
+					"title": "keybinds",
+					"type": "text",
+					"value": 1,
+					"values": [
+						"visible",
+						"hidden"
+					],
+					"desc": [
+						"TOGGLE BARTENDER KEYBINDS IN PAUSE MENU"
+					]
+				},
+				{
+					"title": "group",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"visible",
+						"hidden"
+					],
+					"desc": [
+						"TOGGLE INGAME GROUP OVERLAY"
+					]
+				},
+				{
+					"title": "draw player",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"visible",
+						"hidden"
+					],
+					"desc": [
+						"TOGGLE CLICKGUI PLAYER ENTITY"
+					]
+				},
+				{
+					"title": "dimmed",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"yes",
+						"no"
+					],
+					"desc": [
+						"TOGGLE CLICKGUI BACKGROUND COLOR"
+					]
+				},
+				{
+					"title": "tooltips",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"yes",
+						"no"
+					],
+					"desc": [
+						"TOGGLE CLICKGUI TOOLTIPS"
+					]
+				},
+				{
+					"title": "watermark",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"show",
+						"hide",
+						"menu",
+						"ingame"
+					],
+					"desc": [
+						"CHOOSE WHERE YOU WANT TO DISPLAY",
+						"THE BARTENDER WATERMARK OR HIDE IT COMPLETELY"
+					]
+				},
+				{
+					"title": "reset layout",
+					"type": "click",
+					"desc": [
+						"RESET CLICKGUI LAYOUT"
+					],
+					"closeOnClick": false
+				}
+			]
+		},
+		{
+			"name": "particles",
+			"desc": [
+				"COOL PARTICLE EFFECT FOR PLAYER ENTITY.",
+				"(ONLY VISIBLE FOR YOU)"
+			],
+			"x": 0,
+			"y": 0,
+			"expanded": false,
+			"contents": [
+				{
+					"title": "state",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"on",
+						"flight",
+						"off"
+					],
+					"desc": [
+						"CHOOSE WHEN PARTICLE EFFECT IS ON AND OFF"
+					]
+				},
+				{
+					"title": "lift",
+					"type": "text",
+					"value": 1,
+					"values": [
+						"0",
+						"1",
+						"2",
+						"3",
+						"4"
+					],
+					"desc": [
+						"Y COORDINATE TO SPAWN THE PARTICLES ON",
+						"(RELATIVE TO THE PLAYER)"
+					]
+				},
+				{
+					"title": "rate",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"low",
+						"mid",
+						"high"
+					],
+					"desc": [
+						"CHOOSE PARTICLE EMISSION RATE"
+					]
+				},
+				{
+					"title": "type",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"portal",
+						"explode",
+						"largeexplode",
+						"hugeexplosion",
+						"fireworksSpark",
+						"bubble",
+						"splash",
+						"wake",
+						"suspended",
+						"depthsuspend",
+						"crit",
+						"magicCrit",
+						"smoke",
+						"largesmoke",
+						"spell",
+						"instantSpell",
+						"mobSpell",
+						"mobSpellAmbient",
+						"witchMagic",
+						"dripWater",
+						"dripLava",
+						"angryVillager",
+						"happyVillager",
+						"townaura",
+						"note",
+						"enchantmenttable",
+						"flame",
+						"lava",
+						"footstep",
+						"cloud",
+						"reddust",
+						"snowballpoof",
+						"snowshovel",
+						"slime",
+						"heart",
+						"barrier",
+						"droplet",
+						"dragonbreath",
+						"endRod",
+						"damageIndicator",
+						"sweepAttack",
+						"totem",
+						"spit"
+					],
+					"desc": [
+						"CHOOSE PARTICLE TYPE"
+					]
+				}
+			]
+		},
+		{
+			"name": "bodyguard",
+			"desc": [
+				"BARITONE BODYGUARD THAT CAN FLY", "YOU NEED MULTIPLE ACCOUNTS TO USE THIS FEATURE"
+			],
+			"x": 0,
+			"y": 0,
+			"expanded": false,
+			"contents": [
+				{
+					"title": "state",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"off",
+						"on"
+					],
+					"desc": [
+						"ON/OFF"
+					]
+				},
+				{
+					"title": "agro",
+					"type": "text",
+					"value": 1,
+					"values": [
+						"aura",
+						"on command"
+					],
+					"desc": [
+						"CHOOSE WHEN TO ATTACK A (POTENTIAL) ENEMY"
+					]
+				},
+				{
+					"title": "look",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"free",
+						"locked"
+					],
+					"desc": [
+						"FREE LOOK IS BETTER FOR FUNCTIONALITY,",
+						"LOCKED LOOK JUST LOOKS COOLER"
+					]
+				},
+				{
+					"title": "offset",
+					"type": "text",
+					"value": 1,
+					"values": [
+						"OFF",
+						"ON"
+					],
+					"desc": [
+						"MAKE GUARDS WALK AROUND THE FOLLOW TARGET.",
+						"LOOKS COOL BUT IS NOT THAT GOOD FOR FUNCTIONALITY"
+					]
+				},
+				{
+					"title": "offset draw",
+					"type": "text",
+					"value": 1,
+					"values": [
+						"1000",
+						"2000",
+						"3000",
+						"4000",
+						"5000",
+						"6000",
+						"7000"
+					],
+					"desc": [
+						"INTERVAL IN MILLIS FOR HOW OFTEN THE OFFSET SHOULD CHANGE"
+					]
+				},
+				{
+					"title": "entity RD",
+					"type": "text",
+					"value": 2,
+					"values": [
+						"1",
+						"2",
+						"3",
+						"4",
+						"5",
+						"6",
+						"7",
+						"8",
+						"9",
+						"10"
+					],
+					"desc": [
+						"SERVER'S ENTITY RENDER DISTANCE IN CHUNKS.",
+						"THIS IS IMPORTANT TO SET CORRECTLY SO YOUR BODYGUARDS STAY NEAR YOU."
+					]
+				},
+				{
+					"title": "allow chat",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"no",
+						"yes"
+					],
+					"desc": [
+						"ALLOW THE BODYGUARD BOT TALK IN CHAT."
+					]
+				},
+				{
+					"title": "P log",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"avenge",
+						"log",
+						"run"
+					],
+					"desc": [
+						"PROTECTED LOG BEHAVIOR = WHAT TO DO IF PROTECTED DISCONNECTS"
+					]
+				}
+			]
+		},
+		{
+			"name": "flight",
+			"desc": [
+				"FLIGHT RELATED SETTINGS FOR THE BODYGUARD"
+			],
+			"x": 0,
+			"y": 0,
+			"expanded": false,
+			"contents": [
+				{
+					"title": "hold landing",
+					"type": "text",
+					"value": 1,
+					"values": [
+						"no",
+						"yes"
+					],
+					"desc": [
+						"WHEN ATTACKING A GROUND ENEMY FROM AIR,",
+						"GUARD TRIES TO STAY AIRBORNE UNTIL PROTECTED LANDS.",
+						"IF YOUR ELYTRA SPEED IS TOO HIGH, THE GUARD WILL MOST LIKELY LAND ANYWAY"
+					]
+				},
+				{
+					"title": "orbit",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"OFF",
+						"ON"
+					],
+					"desc": [
+						"HOVER ORBIT REPLACES BASIC HOVER BEHAVIOR"
+					]
+				},
+				{
+					"title": "clockwise",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"yes",
+						"no"
+					],
+					"desc": [
+						"HOVER ORBIT DIRECTION"
+					]
+				},
+				{
+					"title": "takeoff timer",
+					"type": "text",
+					"value": 4,
+					"values": [
+						"50",
+						"100",
+						"150",
+						"200",
+						"250",
+						"300",
+						"350",
+						"400",
+						"450",
+						"500"
+					],
+					"desc": [
+						"MILLIS DELAY BETWEEN SPACE BAR HITS WHEN ATTEMPTING TO TAKE OFF"
+					]
+				},
+				{
+					"title": "takeoff limit",
+					"type": "text",
+					"value": 3,
+					"values": [
+						"3000",
+						"4000",
+						"6000",
+						"8000",
+						"10000",
+						"12000"
+					],
+					"desc": [
+						"MILLIS TIME LIMIT TO GIVE UP TAKEOFF ATTEMPT"
+					]
+				},
+				{
+					"title": "auto takeoff",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"yes",
+						"no"
+					],
+					"desc": [
+						"AUTOMATIC TAKEOFF IF PROTECTED IS ELYTRA FLYING",
+						"THIS ONLY WORKS IF THE HOSTILE LIST IS EMPTY",
+						"ON COMBAT SITUATION, TRIGGER TAKEOFF MANUALLY."
+					]
+				}
+			]
+		},
+		{
+			"name": "group",
+			"desc": [
+				"GROUP CONTROLS FOR THE BODYGUARDS"
+			],
+			"x": 0,
+			"y": 0,
+			"expanded": false,
+			"contents": [
+				{
+					"title": "here",
+					"type": "click",
+					"desc": [
+						"SEND /tpahere FOR ALL MEMBERS OF YOUR GROUP",
+						"THERE IS ABOUT 10 SEC DELAY BETWEEN EACH REQUEST"
+					],
+					"closeOnClick": true
+				},
+				{
+					"title": "stand here",
+					"type": "click",
+					"desc": [
+						"COMMAND ALL GROUP MEMBERS TO STAND ON THE SPOT YOU ARE ON"
+					],
+					"closeOnClick": true
+				},
+				{
+					"title": "tpaccept",
+					"type": "text",
+					"value": 1,
+					"values": [
+						"none",
+						"/tpahere",
+						"/tpa",
+						"both"
+					],
+					"desc": [
+						"SELECT WHAT TPA REQUESTS SHOULD BE AUTO ACCEPTED",
+						"(ONLY WORKS FOR PLAYERS IN THE GROUP)"
+					]
+				},
+				{
+					"title": "friends",
+					"type": "text",
+					"value": 2,
+					"values": [
+						"impact",
+						"list",
+						"both",
+						"none"
+					],
+					"desc": [
+						"SELECT THE PLAYERS BARTENDER SHOULD NOT CONSIDER AS AN ENEMY"
+					]
+				},
+				{
+					"title": "leave group",
+					"type": "click",
+					"desc": [
+						"LOCALLY REMOVE ALL PLAYERS FROM YOUR GROUP"
+					],
+					"closeOnClick": true
+				},
+				{
+					"title": "obby grief",
+					"type": "click",
+					"desc": [
+						"TELL GROUP MEMBERS TO START MINING NEARBY OBSIDIAN",
+						"THIS WILL GO ON FOREVER IF YOU DON'T END IT WITH THE 'end tasks' COMMAND"
+					],
+					"closeOnClick": true
+				},
+				{
+					"title": "ground level",
+					"type": "click",
+					"desc": [
+						"DIG YOUR WAY OUT OF THE CAVE AND",
+						"AND TELL GROUP MEMBERS TO DO THE SAME"
+					],
+					"closeOnClick": true
+				},
+				{
+					"title": "end tasks",
+					"type": "click",
+					"desc": [
+						"KILL ALL RUNNING TASKS ON ALL ACCOUNTS AND START THE DEFAULTS"
+					],
+					"closeOnClick": true
+				},
+				{
+					"title": "chorus",
+					"type": "click",
+					"desc": [
+						"COMMAND ALL PLAYERS IN THE GROUP TO EAT A CHORUS FRUIT.",
+						"- AUTO EAT MUST BE ENABLED",
+						"- THE CHORUS FRUIT MUST BE IN YOUR HOTBAR"
+					],
+					"closeOnClick": true
+				},
+				{
+					"title": "takeoff",
+					"type": "click",
+					"desc": [
+						"MAKE ALL YOUR ALTS TO ATTEMPT TAKEOFF.",
+						"THIS FAILS PRETTY OFTEN SO YOU NEED TO TRY IT MANY TIMES.",
+						"USING JESUS HACKS ON WATER MAKES TAKEOFF MUCH EASIER!"
+					],
+					"closeOnClick": true
+				},
+				{
+					"title": "retreat",
+					"type": "click",
+					"desc": [
+						"CLEAR ENEMIES LIST (STOP FIGHTING)"
+					],
+					"closeOnClick": true
+				}
+			]
+		},
+		{
+			"name": "auto eat",
+			"desc": [
+				"AUTOMATICALLY EAT WHEN HUNGRY, SYNCED WITH OTHER BARTENDER MODULES"
+			],
+			"x": 0,
+			"y": 0,
+			"expanded": false,
+			"contents": [
+				{
+					"title": "state",
+					"type": "text",
+					"value": 1,
+					"values": [
+						"off",
+						"on"
+					],
+					"desc": [
+						"ON/OFF"
+					]
+				},
+				{
+					"title": "fire resistance",
+					"type": "text",
+					"value": 1,
+					"values": [
+						"off",
+						"on"
+					],
+					"desc": [
+						"EAT GAPPLE IF YOU ARE BURNING"
+					]
+				},
+				{
+					"title": "health",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"1",
+						"2",
+						"3",
+						"4",
+						"5",
+						"6",
+						"7",
+						"8",
+						"9",
+						"10",
+						"11",
+						"12",
+						"13",
+						"14",
+						"15",
+						"16",
+						"17",
+						"18",
+						"19",
+						"20"
+					],
+					"desc": [
+						"EAT WHEN HP GOES BELOW THIS VALUE"
+					]
+				},
+				{
+					"title": "hunger",
+					"type": "text",
+					"value": 15,
+					"values": [
+						"1",
+						"2",
+						"3",
+						"4",
+						"5",
+						"6",
+						"7",
+						"8",
+						"9",
+						"10",
+						"11",
+						"12",
+						"13",
+						"14",
+						"15",
+						"16",
+						"17",
+						"18",
+						"19",
+						"20"
+					],
+					"desc": [
+						"EAT WHEN HUNGER GOES BELOW THIS VALUE"
+					]
+				}
+			]
+		},
+		{
+			"name": "aura",
+			"desc": [
+				"AUTO HIT ENTITIES YOU CAN REACH"
+			],
+			"x": 0,
+			"y": 0,
+			"expanded": false,
+			"contents": [
+				{
+					"title": "state",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"AUTO",
+						"ON"
+					],
+					"desc": [
+						"AUTO/ON",
+						"AUTO=CONTROLLED BY BODYGUARD ENEMY LIST",
+						"ON=HIT ANY ENTITY EXCEPT GROUP MEMBERS AND FRIENDS"
+					]
+				},
+				{
+					"title": "prio",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"dist",
+						"HP"
+					],
+					"desc": [
+						"SELECT WHAT ENTITY SHOULD BE PRIORITY IF THERE ARE MANY TO CHOOSE FROM"
+					]
+				},
+				{
+					"title": "reach",
+					"type": "text",
+					"value": 4,
+					"values": [
+						"4.0",
+						"4.5",
+						"5.0",
+						"5.5",
+						"6.0",
+						"6.5",
+						"7.0"
+					],
+					"desc": [
+						"AURA REACH DISTANCE"
+					]
+				},
+				{
+					"title": "mobs",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"all",
+						"agro"
+					],
+					"desc": [
+						"SELECT WHAT MOBS SHOULD BE ATTACKED"
+					]
+				},
+				{
+					"title": "D type",
+					"type": "text",
+					"value": 2,
+					"values": [
+						"none",
+						"ticks",
+						"millis"
+					],
+					"desc": [
+						"SELECT DELAY TYPE"
+					]
+				},
+				{
+					"title": "D millis",
+					"type": "text",
+					"value": 4,
+					"values": [
+						"20",
+						"30",
+						"50",
+						"75",
+						"100",
+						"150",
+						"200",
+						"250",
+						"300",
+						"350",
+						"400",
+						"450",
+						"500",
+						"550",
+						"600",
+						"650",
+						"700",
+						"750",
+						"800",
+						"850",
+						"900",
+						"950",
+						"1000"
+					],
+					"desc": [
+						"DELAY MILLISECONDS"
+					]
+				},
+				{
+					"title": "RD millis",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"1",
+						"20",
+						"50",
+						"100",
+						"150",
+						"200",
+						"250",
+						"300",
+						"350",
+						"400",
+						"450",
+						"500",
+						"550",
+						"600",
+						"650",
+						"700",
+						"750",
+						"800",
+						"850",
+						"900",
+						"950",
+						"1000"
+					],
+					"desc": [
+						"RANDOM VALUE TO BE ADDED TO THE DELAY",
+						"VALUE WILL BE BETWEEN 0 AND THE VALUE YOU SELECT"
+					]
+				},
+				{
+					"title": "D ticks",
+					"type": "text",
+					"value": 1,
+					"values": [
+						"10",
+						"20",
+						"30",
+						"40",
+						"50",
+						"60",
+						"80",
+						"90",
+						"100"
+					],
+					"desc": [
+						"DELAY TICKS"
+					]
+				}
+			]
+		},
+		{
+			"name": "click command",
+			"desc": [
+				"YOU CAN ACCESS THE BARTENDER KEYBINDS THROUGH",
+				"THIS GUI PANEL AS WELL. NOTE THAT ONLY SERVER COMMANDS ARE SUPPORTED!"
+			],
+			"x": 0,
+			"y": 0,
+			"expanded": false,
+			"contents": [
+				{
+					"title": "0",
+					"type": "clickCommand",
+					"desc": [
+						"EXECUTE THIS COMMAND",
+						"YOU CAN EDIT THE BINDED COMMANDS WITH THE /bind COMMAND"
+					],
+					"closeOnClick": true
+				},
+				{
+					"title": "1",
+					"type": "clickCommand",
+					"desc": [
+						"EXECUTE THIS COMMAND",
+						"YOU CAN EDIT THE BINDED COMMANDS WITH THE /bind COMMAND"
+					],
+					"closeOnClick": true
+				},
+				{
+					"title": "2",
+					"type": "clickCommand",
+					"desc": [
+						"EXECUTE THIS COMMAND",
+						"YOU CAN EDIT THE BINDED COMMANDS WITH THE /bind COMMAND"
+					],
+					"closeOnClick": true
+				},
+				{
+					"title": "3",
+					"type": "clickCommand",
+					"desc": [
+						"EXECUTE THIS COMMAND",
+						"YOU CAN EDIT THE BINDED COMMANDS WITH THE /bind COMMAND"
+					],
+					"closeOnClick": true
+				},
+				{
+					"title": "4",
+					"type": "clickCommand",
+					"desc": [
+						"EXECUTE THIS COMMAND",
+						"YOU CAN EDIT THE BINDED COMMANDS WITH THE /bind COMMAND"
+					],
+					"closeOnClick": true
+				},
+				{
+					"title": "5",
+					"type": "clickCommand",
+					"desc": [
+						"EXECUTE THIS COMMAND",
+						"YOU CAN EDIT THE BINDED COMMANDS WITH THE /bind COMMAND"
+					],
+					"closeOnClick": true
+				},
+				{
+					"title": "6",
+					"type": "clickCommand",
+					"desc": [
+						"EXECUTE THIS COMMAND",
+						"YOU CAN EDIT THE BINDED COMMANDS WITH THE /bind COMMAND"
+					],
+					"closeOnClick": true
+				},
+				{
+					"title": "7",
+					"type": "clickCommand",
+					"desc": [
+						"EXECUTE THIS COMMAND",
+						"YOU CAN EDIT THE BINDED COMMANDS WITH THE /bind COMMAND"
+					],
+					"closeOnClick": true
+				},
+				{
+					"title": "8",
+					"type": "clickCommand",
+					"desc": [
+						"EXECUTE THIS COMMAND",
+						"YOU CAN EDIT THE BINDED COMMANDS WITH THE /bind COMMAND"
+					],
+					"closeOnClick": true
+				}
+			]
+		},
+		{
+			"name": "safe totem",
+			"desc": [
+				"AUTOTOTEM FOR 32K PVP & STACKED TOTS"
+			],
+			"x": 0,
+			"y": 0,
+			"expanded": false,
+			"contents": [
+				{
+					"title": "state",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"on",
+						"off"
+					],
+					"desc": [
+						"ON/OFF"
+					]
+				},
+				{
+					"title": "reminder",
+					"type": "text",
+					"value": 1,
+					"values": [
+						"off",
+						"on"
+					],
+					"desc": [
+						"SAFETY REMINDER TEXT IN PAUSE MENU"
+					]
+				},
+				{
+					"title": "stacksize",
+					"type": "text",
+					"value": 1,
+					"values": [
+						"32",
+						"48",
+						"64"
+					],
+					"desc": [
+						"MAX STACK SIZE FOR TOTS"
+					]
+				},
+				{
+					"title": "swap at",
+					"type": "text",
+					"value": 2,
+					"values": [
+						"1",
+						"2",
+						"3",
+						"4",
+						"5",
+						"6",
+						"7",
+						"8",
+						"9",
+						"10",
+						"11",
+						"12",
+						"13",
+						"14",
+						"15"
+					],
+					"desc": [
+						"WHEN OFFHAND TOTEM STACK'S COUNT GOES BELOW THIS VALUE,",
+						" -> SWAP TO A NEW STACK"
+					]
+				},
+				{
+					"title": "interval",
+					"type": "text",
+					"value": 1,
+					"values": [
+						"200",
+						"500",
+						"1000",
+						"2000"
+					],
+					"desc": [
+						"MILLISECONDS ON HOW RAPIDLY SWAP IS ALLOWED"
+					]
+				},
+				{
+					"title": "NDB",
+					"type": "text",
+					"value": 1,
+					"values": [
+						"none",
+						"log",
+						"/kill"
+					],
+					"desc": [
+						"NEAR DEATH BEHAVIOR (NDB)",
+						"APPLIED WHEN TOTAL TOTEM COUNT GOES UNDER ND COUNT"
+					]
+				},
+				{
+					"title": "NDB count",
+					"type": "text",
+					"value": 3,
+					"values": [
+						"1",
+						"2",
+						"3",
+						"4",
+						"5",
+						"6",
+						"7",
+						"8",
+						"9",
+						"10"
+					],
+					"desc": [
+						"NEAR DEATH BEHAVIOR IS APPLIED ONCE",
+						"TOTEM COUNT GOES BELOW THIS VALUE"
+					]
+				}
+			]
+		},
+		{
+			"name": "auto build",
+			"desc": [
+				"USES BARITONE TO BUILD SIMPLE SCHEMATICS"
+			],
+			"x": 0,
+			"y": 0,
+			"expanded": false,
+			"contents": [
+				{
+					"title": "stop",
+					"type": "click",
+					"desc": [
+						"STOP BUILDER PROCESS"
+					],
+					"closeOnClick": true
+				},
+				{
+					"title": "current",
+					"type": "click",
+					"desc": [
+						"STARTS BUILDING THE CURRENTLY LOADED SCHEMATIC.",
+						"(REQUIRES SCHEMATICA TO WORK)"
+					],
+					"closeOnClick": true
+				},
+				{
+					"title": "mapart mode",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"off",
+						"on"
+					],
+					"desc": [
+						"MAPART MODE MAKES BARITONE ONLY CARE",
+						"ABOUT THE TOP BLOCK OF EACH COLUMN"
+					]
+				},
+				{
+					"title": "clear chunk",
+					"type": "click",
+					"desc": [
+						"DESTROY EVERY BLOCK IN THE CHUNK YOU ARE IN"
+					],
+					"closeOnClick": true
+				},
+				{
+					"title": "nether portal",
+					"type": "click",
+					"desc": [
+						"BUILD A NETHER PORTAL SCHEMATIC"
+					],
+					"closeOnClick": true
+				},
+				{
+					"title": "nomad hut",
+					"type": "click",
+					"desc": [
+						"BUILD DRUNK'S NOMAD HUT SCHEMATIC FROM OBSIDIAN"
+					],
+					"closeOnClick": true
+				},
+				{
+					"title": "youtube ad",
+					"type": "click",
+					"desc": [
+						"BUILD DRUNK'S YOUTUBE AD SCHEMATIC FROM OBSIDIAN AND DIRT"
+					],
+					"closeOnClick": true
+				},
+				{
+					"title": "bartender ad",
+					"type": "click",
+					"desc": [
+						"BUILD BARTENDER AD SCHEMATIC FROM OBSIDIAN AND DIRT"
+					],
+					"closeOnClick": true
+				},
+				{
+					"title": "tombstone",
+					"type": "click",
+					"desc": [
+						"BUILD TOMBSTONE SCHEMATIC FROM OBSIDIAN"
+					],
+					"closeOnClick": true
+				},
+				{
+					"title": "swastika",
+					"type": "click",
+					"desc": [
+						"BUILD SWASTIKA SCHEMATIC FROM OBSIDIAN"
+					],
+					"closeOnClick": true
+				}
+			]
+		},
+		{
+			"name": "chat",
+			"desc": [
+				"CHAT RELATED SETTINGS"
+			],
+			"x": 0,
+			"y": 0,
+			"expanded": false,
+			"contents": [
+				{
+					"title": "moo check",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"on",
+						"off"
+					],
+					"desc": [
+						"WHEN TURNED ON, THIS PREVENTS YOU FROM EXECUTING",
+						"MOOOMOOO COMMANDS WHEN THE BOT IS OFFLINE"
+					]
+				},
+				{
+					"title": "AFK reply",
+					"type": "text",
+					"value": 1,
+					"values": [
+						"on",
+						"off"
+					],
+					"desc": [
+						"WHEN TURNED ON, ANYONE OUTSIDE YOU GROUP",
+						"WHISPERING YOU WILL RECEIVE RESPONSE: 'I'm currently afk'"
+					]
+				},
+				{
+					"title": "help",
+					"type": "text",
+					"value": 1,
+					"values": [
+						"on",
+						"off"
+					],
+					"desc": [
+						"ALLOW PLAYERS TO USE THE HELP COMMAND"
+					]
+				},
+				{
+					"title": "LGBT",
+					"type": "text",
+					"value": 1,
+					"values": [
+						"on",
+						"off"
+					],
+					"desc": [
+						"ALLOW PLAYERS TO USE THE GENDER COMMAND"
+					]
+				},
+				{
+					"title": "LGBT ad",
+					"type": "click",
+					"desc": [
+						"SEND CHAT MESSAGE ADVERTISING THE GENDER COMMAND"
+					],
+					"closeOnClick": true
+				},
+				{
+					"title": "chatfix",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"on",
+						"off"
+					],
+					"desc": [
+						"WRITE SOMETHING TO THE END OF EACH CHAT MESSAGE YOU SEND",
+						"USE /chatfix TO EDIT"
+					]
+				},
+				{
+					"title": "party tpa",
+					"type": "text",
+					"value": 1,
+					"values": [
+						"on",
+						"off"
+					],
+					"desc": [
+						"WHEN THIS IS ON, EVERY TPA REQUEST IS AUTOMATICALLY ACCEPTED"
+					]
+				},
+				{
+					"title": "party ad",
+					"type": "click",
+					"desc": [
+						"SEND CHAT MESSAGE ADVERTISING THE PARTY IN PUBLIC CHAT"
+					],
+					"closeOnClick": true
+				},
+				{
+					"title": "pornhub",
+					"type": "text",
+					"value": 1,
+					"values": [
+						"on",
+						"off"
+					],
+					"desc": [
+						"WHEN THIS IS ON, PLAYERS CAN EXECUTE PORNHUB SEARCHES ON YOU"
+					]
+				},
+				{
+					"title": "pornhub ad",
+					"type": "click",
+					"desc": [
+						"SEND CHAT MESSAGE ADVERTISING THE PORNHUB SEARCH"
+					],
+					"closeOnClick": true
+				}
+			]
+		},
+		{
+			"name": "base finder",
+			"desc": [
+				"AFK BASE HUNTING BOT"
+			],
+			"x": 0,
+			"y": 0,
+			"expanded": false,
+			"contents": [
+				{
+					"title": "state",
+					"type": "text",
+					"value": 1,
+					"values": [
+						"on",
+						"off"
+					],
+					"desc": [
+						"OF/OFF"
+					]
+				},
+				{
+					"title": "travel",
+					"type": "text",
+					"value": 1,
+					"values": [
+						"orbit",
+						"forward",
+						"custom"
+					],
+					"desc": [
+						"TRAVEL DIRECTION.",
+						"WHEN ORBIT IS SELECTED, BOT ORBITS AROUND SPAWN",
+						"STARTING FROM THE ACTIVATION LOCATION.",
+						"USE CUSTOM TO TRAVEL TO ANY GIVEN COORDINATES"
+					]
+				},
+				{
+					"title": "save log",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"on",
+						"off"
+					],
+					"desc": [
+						"MAKE BOT TO WRITE A TXT REPORT OF THE HUNTING SESSION"
+					]
+				},
+				{
+					"title": "screenshot",
+					"type": "text",
+					"value": 1,
+					"values": [
+						"yes",
+						"no"
+					],
+					"desc": [
+						"TAKE SCREENSHOT OF THE INTERESTING CHUNKS"
+					]
+				},
+				{
+					"title": "anti encounter",
+					"type": "text",
+					"value": 1,
+					"values": [
+						"yes",
+						"no"
+					],
+					"desc": [
+						"DISCONNECT IF A NON GROUP PLAYER ENTERS RENDER DISTANCE"
+					]
+				},
+				{
+					"title": "avoid spawn",
+					"type": "text",
+					"value": 1,
+					"values": [
+						"yes",
+						"no"
+					],
+					"desc": [
+						"DISCONNECT IF ENTERING AREA 20K FROM SPAWN"
+					]
+				},
+				{
+					"title": "orbit density",
+					"type": "text",
+					"value": 8,
+					"values": [
+						"400",
+						"500",
+						"600",
+						"700",
+						"800",
+						"900",
+						"1000",
+						"1250",
+						"1750",
+						"2250",
+						"2750",
+						"3000",
+						"4000",
+						"5000"
+					],
+					"desc": [
+						"HOW MANY BLOCKS THERE SHOULD BE BETWEEN EACH ORBIT LEVEL"
+					]
+				},
+				{
+					"title": "flight level",
+					"type": "text",
+					"value": 2,
+					"values": [
+						"100",
+						"200",
+						"210",
+						"257",
+						"300",
+						"400"
+					],
+					"desc": [
+						"Y COORDINATE OF TRAVEL"
+					]
+				},
+				{
+					"title": "disconnect",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"never",
+						"at goal",
+						"on find"
+					],
+					"desc": [
+						"CHOOSE WHEN TO DISCONNECT"
+					]
+				},
+				{
+					"title": "pause",
+					"type": "text",
+					"value": 0,
+					"values": [
+						"on find",
+						"on goal",
+						"never"
+					],
+					"desc": [
+						"CHOOSE WHEN TO PAUSE"
+					]
+				},
+				{
+					"title": "pause/continue",
+					"type": "click",
+					"desc": [
+						"PAUSE/CONTINUE HUNT"
+					],
+					"closeOnClick": true
+				}
+			]
+		}
+	]
+}

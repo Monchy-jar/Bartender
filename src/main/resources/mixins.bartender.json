@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "com.drunkshulker.bartender.mixins.client",
+  "refmap": "mixins.bartender.refmap.json",
+  "minVersion": "0.6",
+  "client": [
+
+  ]
+}
