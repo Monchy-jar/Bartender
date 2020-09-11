@@ -17,7 +17,8 @@ Pull requests are not welcome. Make your modifications to your own forks.
 3. If you want to use other hack clients with Bartender, install them at this point. Some of Bartender's features need hacks from other clients in order to work properly. See the list of required hacks here. Impact and Kami BLUE are probably the best way to go, as Bartender was developed and tested with them.
 4. Download the latest release `.jar` of Bartender from [releases](https://github.com/DrunkShulker/Bartender/releases).
 5. Move the release `.jar` into `mods` folder in your Minecraft directory.
-6. Launch Minecraft. The custom Forge loading screen will appear the second time you launch Minecraft.
+6. Make sure you have `C:\tmp` folder in your system. if it does not exist, create it
+7. Launch Minecraft. The custom Forge loading screen will appear the second time you launch Minecraft.
 
 ## Usage
 See the wiki.
