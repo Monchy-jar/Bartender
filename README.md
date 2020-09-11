@@ -1,3 +1,5 @@
+> If you are here right after the release, I'm still working on this document. Some of it's links are not in place yet.
+
 # What's Bartender?
 Bartender is an utility mod for Minecraft 1.12.2. It is designed for [8b8t.xyz](https://www.8b8t.xyz/) anarchy server. Keep in mind that some of Bartender's features may not work on servers other than 8b8t, as they rely on 8b8t's server environment. Future releases will be designed to adapt into any changes 8b's environment may come across.
 
